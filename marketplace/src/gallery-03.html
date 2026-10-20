@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="gallery.css">
+<div class="head">
+  <h2>Needs the <span class="accent">xeneon-graph-proxy</span> companion</h2>
+  <p class="sub">The widget never talks to Microsoft. A small service you run does, and serves read-only JSON.</p>
+</div>
+<div class="flow"><div class="box">Xeneon Edge widget<small>This widget, in iCUE</small></div><div class="link">Read-only JSON<div class="line"></div>Default http://localhost:8585</div><div class="box">xeneon-graph-proxy<small>Companion you run yourself</small></div><div class="link">Microsoft Graph<div class="line"></div>Device-code sign-in, Tasks.Read</div><div class="box">Microsoft To Do<small>Your lists and tasks</small></div></div>
+<div class="steps"><div class="step"><div class="num">1</div><b>Run the proxy</b><br>Follow the xeneon-graph-proxy README, then start sign-in once.</div><div class="step"><div class="num">2</div><b>Import</b><br>Open the .icuewidget file, or use Widgets, then + in iCUE.</div><div class="step"><div class="num">3</div><b>Point at it</b><br>Set Proxy URL if it is not on localhost port 8585.</div></div>
+<div class="note"><b>Network permission:</b> localhost port 8585 for the default proxy, plus any host because Proxy URL can point anywhere on your network. Requires iCUE 5.52 or later and a Microsoft account.</div>
+<div class="foot"><span>Unofficial widget for Microsoft To Do. Not affiliated with or endorsed by Microsoft. MIT.</span><span>Windows, iCUE 5.52+, Xeneon Edge</span></div>
