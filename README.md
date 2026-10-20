@@ -27,7 +27,7 @@ Microsoft Graph has no static API keys, so this widget pairs with **[xeneon-grap
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
-| Proxy URL | text | `http://192.168.0.160:8585` | Where xeneon-graph-proxy runs |
+| Proxy URL | text | `http://localhost:8585` | Where xeneon-graph-proxy runs |
 | List ID | text | empty | Blank = your default To-Do list (`/api/todo/lists` to discover IDs) |
 | Title | text | `My Day` | Header label |
 | Max Tasks | slider | 12 | 3–30 |
