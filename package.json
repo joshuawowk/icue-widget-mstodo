@@ -1,10 +1,10 @@
 {
   "name": "icue-widget-mstodo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "description": "Build scripts for the Microsoft To-Do iCUE widget (requires icuewidget-cli)",
   "scripts": {
     "validate": "icuewidget validate .",
-    "package": "icuewidget package . -o dist/microsoft-todo.icuewidget"
+    "package": "node tools/package.js"
   }
 }
