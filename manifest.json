@@ -3,7 +3,7 @@
   "id": "net.jwowk.icue.mstodo",
   "name": "Microsoft To-Do",
   "description": "My Day-style Microsoft To-Do list for Xeneon Edge — dark theme with circular checkboxes, due-date chips, and importance stars. Data is served by the xeneon-graph-proxy companion service (Microsoft Graph, read-only).",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "preview_icon": "resources/icon.png",
   "min_framework_version": "1.0.0",
   "os": [
